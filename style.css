@@ -144,14 +144,14 @@ header .buttons .btn-2 i {
 .services {
 	background-color: #1D364C;
 }
-.services .container {
+.services .container, .contact .container {
 	width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 40px;
 	padding-top: 30px;
 }
-.services .container .col-3 {
+.services .container .col-3, .contact .container .col-3 {
 	width: 32%;
 	float: left;
 	padding: 20px 5px;
@@ -192,4 +192,73 @@ header .buttons .btn-2 i {
 	padding: 20px 3px;
 	color: #fff;
 	font-size: 17px;
+}
+
+
+	/*contact styling*/
+
+.contact {
+	background-color: #040811;
+}
+.contact .container .col-3 {
+	border: none;
+	overflow: hidden;
+}
+.contact .container .col-3 h3 {
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	word-spacing: 3px;
+	color: #B2B6B9;
+	padding-bottom: 15px;
+}
+.contact .container .col-3 h3 span {
+	color: #0076B7;
+}
+.contact .container .col-3 p {
+	color: #B2B6B9;
+}
+.contact .container .col-3 .details {
+	overflow: hidden;
+	margin-top: 15px;
+}
+.contact .container .col-3 .details .title {
+	width: 30%;
+	float: left;
+}
+.contact .container .col-3 .details .info {
+	width: 68%;
+	float: right;
+	text-align: left;
+}
+.contact .container .col-3 .testimonial {
+	background-color: #0C1019;
+	padding: 10px;
+}
+.contact .container .col-3 .about {
+	margin-top: 25px;
+}
+.contact .container .col-3 .image {
+	width: 30%;
+	float: left;
+}
+.contact .container .col-3 .image img {
+	width: 100%;
+}
+.contact .container .col-3 .detail {
+	width: 58%;
+	float: right;
+}
+.contact .container .col-3 .detail h3 {
+	font-size: 25px;
+	margin-top: 7px;
+}
+.contact .container .col-3 .detail h2 {
+	font-size: 28px;
+	margin-top: 1px;
+	color: #0076B7;
+}
+.contact .container .col-3 .detail img {
+	width: 100%;
+	margin-top: 6px;
 }
